@@ -8,3 +8,7 @@ def initialize
 :weight, :handed, :complexion, :t_shirt_size, 
 :wrist_size, :glove_size, :pant_length, :pant_width]
 end
+
+sophie = Person.new
+sophie.send("name: "Sophie", hair_color: "Brown")
+end
